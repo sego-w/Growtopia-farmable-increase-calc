@@ -4,6 +4,7 @@ This is a fun little tool I built to help growtopians quickly calculate their wa
 # List of farmables and their respective increases/farm
 
 # Note: For this calculator, the assumed amount of seeds you have (one farm full) is 2496
+```
 farmable = {'Rice':1.137,'Sugarcane':1.133,'Steel':1.107,'Ftank':1.096,'Pepper':1.090,'Chand':1.063,'Lgrid':1.072,'HTB':1.072,'Mbell':1.060,'Ladder':1.280,'Sorc':1.063,'Grass':1.990}
 locals().update(farmable)
 
@@ -43,3 +44,4 @@ else:
 
 
 print(f'By the time you finish farming, you should have {formula:.2f} Seeds!')
+```
