@@ -19,3 +19,5 @@ times = int(input('How many times are you planning to farm? '))
 formula = 2496 * farmable[the_thing] ** times
 
 print(f'By the time you finish farming, you should have {formula:.2f} Seeds!')
+
+# thing
